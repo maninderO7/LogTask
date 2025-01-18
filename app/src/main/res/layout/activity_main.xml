@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="1st Action"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_below="@id/btnAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/tvArithmaticAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="0"
+        />
+
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/btnSub"
+        android:textSize="15sp"
+        android:layout_margin="20dp"
+        android:text="First Operand is the middle and the other is 2"
+        />
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="+"
+        android:layout_below="@id/tvArithmaticAction"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvArithmaticAction"
+        android:layout_centerHorizontal="true"
+        android:text="-"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btnDiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/tvArithmaticAction"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/btnMult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/tvArithmaticAction"
+        android:text="*"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/UI_Task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/btnAction"
+        android:text="UI Task"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/btnAdd"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btnTimePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAdd"
+        android:layout_toRightOf="@id/btnDatePicker"
+        android:text="Time"
+        android:layout_marginTop="30dp"/>
+
+
+</RelativeLayout>
