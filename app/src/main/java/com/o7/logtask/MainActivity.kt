@@ -9,7 +9,6 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.InputType
 import android.widget.EditText
-import android.widget.TimePicker
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AlertDialog
@@ -112,7 +111,7 @@ class MainActivity : AppCompatActivity(), DialogInterface.OnClickListener {
 
 
         binding.btnTimePicker.setOnClickListener {
-            val intent = Intent(this, com.o7.logtask.TimePicker::class.java)
+            val intent = Intent(this, MyTimePicker::class.java)
             startActivity(intent)
         }
 

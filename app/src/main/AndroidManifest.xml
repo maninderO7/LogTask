@@ -13,7 +13,7 @@
         android:theme="@style/Theme.LogTask"
         tools:targetApi="31">
         <activity
-            android:name=".TimePicker"
+            android:name=".MyTimePicker"
             android:exported="true">
 
         </activity>

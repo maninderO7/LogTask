@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Locale
 
-class TimePicker : AppCompatActivity() {
+class MyTimePicker : AppCompatActivity() {
 
     val timeFormats = arrayOf(
         "HH:mm:ss",
